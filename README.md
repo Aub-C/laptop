@@ -37,7 +37,7 @@ and once it appears, press `return` to launch it.
 In your Terminal window, copy and paste the command below, then press `return`.
 
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/cyborgshadow/laptop/master/laptop)
+bash <(curl -s https://raw.githubusercontent.com/Aub-C/laptop/master/laptop)
 ```
 
 The [script](https://github.com/cyborgshadow/laptop/blob/master/mac) itself is
@@ -86,17 +86,14 @@ What it sets up
 * [docker] for container virtualization
 * [docker-toolbox] for easy access to swarm, compose, etc
 * [iTerm2] for tmux friendly terminal
-* [Dropbox] For cloud file access
 * [Caffeine] for keeping your mac awake
 * [Spectacle] Window Manager
 * [Vagrant] Local VM manager
 * [Atom] A pretty and full-featured visual editor
 * [Google Hangouts] Google's Communication tool
 * [Google Drive] Google's Cloud Storage
-* [VLC media player] A nice media player
 * [Cheatsheet] Handy shortcuts by long hold command
 * [Zsh] as your shell (if you opt in)
-* [chefdk] for developing against Chef
 * [macdown] for markdown editing
 * [jq] For cli JSON formatting
 * [Google Cloud SDK] for development of google cloud apps
@@ -117,10 +114,7 @@ What it sets up
 [python]: https://www.python.org/
 [pyenv]: https://github.com/pyenv/pyenv
 [docker]: https://www.docker.com/
-[chefdk]: https://downloads.chef.io/chefdk
-[docker-toolbox]: https://www.docker.com/products/docker-toolbox
 [iTerm2]: https://iterm2.com/
-[Dropbox]: https://www.dropbox.com/
 [Caffeine]: http://lightheadsw.com/caffeine/
 [TotalFinder]: https://totalfinder.binaryage.com/
 [Spectacle]: https://www.spectacleapp.com/
@@ -128,7 +122,6 @@ What it sets up
 [Atom]: https://atom.io/
 [Google Hangouts]: https://hangouts.google.com/
 [Google Drive]: https://drive.google.com/
-[VLC media player]: http://www.videolan.org/vlc/
 [Cheatsheet]: https://www.mediaatelier.com/CheatSheet/
 [Zsh]: http://www.zsh.org/
 [Google Cloud SDK]: https://cloud.google.com/sdk/
@@ -243,6 +236,8 @@ How to switch your shell back to bash from zsh (or vice versa)
 
 Credits
 -------
+
+Forked from CyborgShadow and updated to my personal preferences. 
 
 This laptop script is inspired by
 [thoughbot's laptop](https://github.com/thoughtbot/laptop) script.
