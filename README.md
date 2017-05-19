@@ -8,7 +8,7 @@ It can be run multiple times on the same machine safely. It installs,
 upgrades, or skips packages based on what is already installed on the machine.
 
 This particular version of the script is geared toward beginners who want to
-set up a Go/Python/Ruby/Chef environment on their Mac. More advanced users can
+set up a Go/Python/Ruby environment on their Mac. More advanced users can
 easily customize the script to install additional
 tools. 
 
@@ -40,7 +40,7 @@ In your Terminal window, copy and paste the command below, then press `return`.
 bash <(curl -s https://raw.githubusercontent.com/Aub-C/laptop/master/laptop)
 ```
 
-The [script](https://github.com/cyborgshadow/laptop/blob/master/mac) itself is
+The [script](https://github.com/Aub-C/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
@@ -62,14 +62,14 @@ Debugging
 ---------
 
 Your last Laptop run will be saved to a file called `laptop.log` in your home
-folder. Read through it to see if you can debug the issue yourself. If not,
-copy the entire contents of `laptop.log` into a
-[new GitHub Issue](https://github.com/cyborgshadow/laptop/issues/new) for me.
-Or, attach the whole log file as an attachment.
+folder. Read through it to see if you can debug the issue yourself.
 
 What it sets up
 ---------------
 
+* [ruby] is an expressive, dynamic programming language
+* [boto3] is the Amazon Web Services (AWS) SDK for Python
+* [git] version control
 * [Flux] for adjusting your Mac's display color so you can sleep better
 * [Homebrew] for managing operating system libraries
 * [Homebrew Cask] for quickly installing Mac apps from the command line
@@ -89,15 +89,31 @@ What it sets up
 * [Caffeine] for keeping your mac awake
 * [Spectacle] Window Manager
 * [Vagrant] Local VM manager
-* [Atom] A pretty and full-featured visual editor
 * [Google Hangouts] Google's Communication tool
 * [Google Drive] Google's Cloud Storage
 * [Cheatsheet] Handy shortcuts by long hold command
 * [Zsh] as your shell (if you opt in)
 * [macdown] for markdown editing
 * [jq] For cli JSON formatting
-* [Google Cloud SDK] for development of google cloud apps
+* [filezilla] for connecting to SFTP server
+* [tmux] tmux is a terminal multiplexer
+* [ccze] a fast log colorizer
+* [awscli] is a unified tool to manage your aws services
+* [vlc] cross-platform multimedia player 
+* [node.js] javascript runtime
+* [slack] real-time messaging, archiving and search for modern teams
+* [java] is a general-purpose computer programming language
+* [flash-npapi] flash runtime
+* [inssider] is a wifi troubleshooting and optimization tool 
+* [malwarebytes-anti-malware] scans for and removes code that degrades performance or attacks your system
+* [forklift] dual pane file manager and file transfer client
+* [razorsql] is an SQL query tool, database browser, SQL editor, and database administration tool
+* [ansible]  is the simplest way to automate apps and IT infrastructure
+* [terraform] enables you to safely and predictably create, change, and improve production infrastructure
 
+[ruby]: https://www.ruby-lang.org/en/
+[boto3]:https://boto3.readthedocs.io/en/latest/
+[git]: https://git-scm.com/
 [macdown]: https://macdown.uranusjr.com/
 [jq]: https://github.com/stedolan/jq
 [Flux]: https://justgetflux.com/
@@ -119,12 +135,26 @@ What it sets up
 [TotalFinder]: https://totalfinder.binaryage.com/
 [Spectacle]: https://www.spectacleapp.com/
 [Vagrant]: https://www.vagrantup.com/
-[Atom]: https://atom.io/
 [Google Hangouts]: https://hangouts.google.com/
 [Google Drive]: https://drive.google.com/
 [Cheatsheet]: https://www.mediaatelier.com/CheatSheet/
 [Zsh]: http://www.zsh.org/
-[Google Cloud SDK]: https://cloud.google.com/sdk/
+[filezilla]: https://filezilla-project.org/
+[tmux]: https://tmux.github.io/
+[ccze]: https://github.com/cornet/ccze
+[awscli]: https://aws.amazon.com/cli/
+[vlc]: http://www.videolan.org/vlc/index.html
+[node.js]: https://nodejs.org/en/
+[slack]: https://slack.com/
+[java]: https://www.java.com/en/
+[flash]: http://get.adobe.com/flashplayer/about/
+[inssider]: http://www.metageek.com/products/inssider/
+[malwarebytes-anti-malware]: https://www.malwarebytes.com/mac/
+[forklift]: http://www.binarynights.com/forklift/
+[razorsql]: https://razorsql.com/
+[ansible]: https://www.ansible.com/
+[terraform]: https://www.terraform.io/
+
 
 It should take less than 30 minutes to install (depends on your machine and
 internet connection).
@@ -237,7 +267,8 @@ How to switch your shell back to bash from zsh (or vice versa)
 Credits
 -------
 
-Forked from CyborgShadow and updated to my personal preferences. 
+Forked from CyborgShadow and updated to my personal preferences.
+https://github.com/CyborgShadow/laptop
 
 This laptop script is inspired by
 [thoughbot's laptop](https://github.com/thoughtbot/laptop) script.
