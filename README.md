@@ -154,6 +154,7 @@ What it sets up
 [slack]: https://slack.com/
 [java]: https://www.java.com/en/
 [flash]: http://get.adobe.com/flashplayer/about/
+[flash-npapi]: http://get.adobe.com/flashplayer/about/?
 [inssider]: http://www.metageek.com/products/inssider/
 [malwarebytes-anti-malware]: https://www.malwarebytes.com/mac/
 [forklift]: http://www.binarynights.com/forklift/
