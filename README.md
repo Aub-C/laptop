@@ -15,7 +15,7 @@ tools.
 Requirements
 ------------
 
-* [macOS Sierra](https://www.apple.com/macos/sierra/) (10.12)
+* OS X Sierra (10.12)
 * OS X El Capitan (10.11)
 * OS X Yosemite (10.10)
 * OS X Mavericks (10.9)
@@ -68,6 +68,8 @@ What it sets up
 * [ruby] is an expressive, dynamic programming language
 * [boto3] is the Amazon Web Services (AWS) SDK for Python
 * [git] version control
+* [vim] is a highly configurable text editor
+* [gcc] GNU compiler
 * [Flux] for adjusting your Mac's display color so you can sleep better
 * [Homebrew] for managing operating system libraries
 * [Homebrew Cask] for quickly installing Mac apps from the command line
@@ -108,10 +110,14 @@ What it sets up
 * [razorsql] is an SQL query tool, database browser, SQL editor, and database administration tool
 * [ansible]  is the simplest way to automate apps and IT infrastructure
 * [terraform] enables you to safely and predictably create, change, and improve production infrastructure
+* [google-chrome] google chrome browser
+* [firefox] mozilla firefox browser
 
 [ruby]: https://www.ruby-lang.org/en/
 [boto3]:https://boto3.readthedocs.io/en/latest/
 [git]: https://git-scm.com/
+[vim]: http://www.vim.org/
+[gcc]: https://gcc.gnu.org/
 [macdown]: https://macdown.uranusjr.com/
 [jq]: https://github.com/stedolan/jq
 [Flux]: https://justgetflux.com/
@@ -128,6 +134,7 @@ What it sets up
 [python]: https://www.python.org/
 [pyenv]: https://github.com/pyenv/pyenv
 [docker]: https://www.docker.com/
+[docker-toolbox]: https://www.docker.com/products/docker-toolbox
 [iTerm2]: https://iterm2.com/
 [Caffeine]: http://lightheadsw.com/caffeine/
 [TotalFinder]: https://totalfinder.binaryage.com/
@@ -152,7 +159,8 @@ What it sets up
 [razorsql]: https://razorsql.com/
 [ansible]: https://www.ansible.com/
 [terraform]: https://www.terraform.io/
-
+[google-chrome]: https://www.google.com/chrome/ 
+[firefox]: https://www.mozilla.org/en-US/firefox/
 
 It should take less than 30 minutes to install (depends on your machine and
 internet connection).
