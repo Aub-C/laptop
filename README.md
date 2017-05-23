@@ -87,7 +87,6 @@ What it sets up
 * [docker] for container virtualization
 * [docker-toolbox] for easy access to swarm, compose, etc
 * [iTerm2] for tmux friendly terminal
-* [Caffeine] for keeping your mac awake
 * [Spectacle] Window Manager
 * [Vagrant] Local VM manager
 * [Google Hangouts] Google's Communication tool
@@ -137,7 +136,6 @@ What it sets up
 [docker]: https://www.docker.com/
 [docker-toolbox]: https://www.docker.com/products/docker-toolbox
 [iTerm2]: https://iterm2.com/
-[Caffeine]: http://lightheadsw.com/caffeine/
 [TotalFinder]: https://totalfinder.binaryage.com/
 [Spectacle]: https://www.spectacleapp.com/
 [Vagrant]: https://www.vagrantup.com/
